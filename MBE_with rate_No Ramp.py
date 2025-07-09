@@ -182,8 +182,8 @@ def plot_layer_structure(layers, substrate_thickness_nm=100, scale_factor=0.5):
     plt.show()
 
 # === Usage ===
-lay_file = r"C:\Users\sid34gu\Documents\Data\EPI files\Eiko B\B622.lay"
-epi_file = r"C:\Users\sid34gu\Documents\Data\EPI files\Eiko B\B622.epi"
+lay_file = r"C:\Users\sid34gu\Documents\Data\EPI files\C5682.lay"
+epi_file = r"C:\Users\sid34gu\Documents\Data\EPI files\C5682.epi"
 
 lay_data = parse_lay_file(lay_file)
 layer_stack = parse_epi_file(epi_file, lay_data)
